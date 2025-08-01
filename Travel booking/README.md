@@ -105,3 +105,6 @@ TravelTrail/
 ## License
 
 MIT 
+
+---
+
