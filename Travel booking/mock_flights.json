@@ -1,0 +1,773 @@
+{
+  "meta": {
+    "count": 5,
+    "links": {
+      "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=DEL&destinationLocationCode=BOM&departureDate=2025-08-01&adults=1&max=5&currencyCode=INR"
+    }
+  },
+  "data": [
+    {
+      "type": "flight-offer",
+      "id": "1",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "isUpsellOffer": false,
+      "lastTicketingDate": "2025-08-01",
+      "lastTicketingDateTime": "2025-08-01",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT2H15M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "DEL",
+                "terminal": "3",
+                "at": "2025-08-01T16:50:00"
+              },
+              "arrival": {
+                "iataCode": "BOM",
+                "terminal": "2",
+                "at": "2025-08-01T19:05:00"
+              },
+              "carrierCode": "AI",
+              "number": "2941",
+              "aircraft": {
+                "code": "32N"
+              },
+              "operating": {
+                "carrierCode": "AI"
+              },
+              "duration": "PT2H15M",
+              "id": "1",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "INR",
+        "total": "6600.00",
+        "base": "5661.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "6600.00"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "AI"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "INR",
+            "total": "6600.00",
+            "base": "5661.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "1",
+              "cabin": "ECONOMY",
+              "fareBasis": "LL1YXSII",
+              "brandedFare": "ECOVALU",
+              "brandedFareLabel": "ECO VALUE",
+              "class": "L",
+              "includedCheckedBags": {
+                "weight": 15,
+                "weightUnit": "KG"
+              },
+              "includedCabinBags": {
+                "weight": 7,
+                "weightUnit": "KG"
+              },
+              "amenities": [
+                {
+                  "description": "PRE RESERVED SEAT ASSIGNMENT",
+                  "isChargeable": false,
+                  "amenityType": "PRE_RESERVED_SEAT",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "MEAL SERVICES",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "REFUNDABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "CHANGEABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "UPGRADE",
+                  "isChargeable": true,
+                  "amenityType": "UPGRADES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "FREE CHECKED BAGGAGE ALLOWANCE",
+                  "isChargeable": false,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "2",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "isUpsellOffer": false,
+      "lastTicketingDate": "2025-08-01",
+      "lastTicketingDateTime": "2025-08-01",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT2H50M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "DEL",
+                "terminal": "3",
+                "at": "2025-08-01T17:15:00"
+              },
+              "arrival": {
+                "iataCode": "BOM",
+                "terminal": "2",
+                "at": "2025-08-01T20:05:00"
+              },
+              "carrierCode": "AI",
+              "number": "441",
+              "aircraft": {
+                "code": "77W"
+              },
+              "operating": {
+                "carrierCode": "AI"
+              },
+              "duration": "PT2H50M",
+              "id": "5",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "INR",
+        "total": "6600.00",
+        "base": "5661.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "6600.00"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "AI"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "INR",
+            "total": "6600.00",
+            "base": "5661.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "5",
+              "cabin": "ECONOMY",
+              "fareBasis": "LL1YXSII",
+              "brandedFare": "ECOVALU",
+              "brandedFareLabel": "ECO VALUE",
+              "class": "L",
+              "includedCheckedBags": {
+                "weight": 15,
+                "weightUnit": "KG"
+              },
+              "includedCabinBags": {
+                "weight": 7,
+                "weightUnit": "KG"
+              },
+              "amenities": [
+                {
+                  "description": "PRE RESERVED SEAT ASSIGNMENT",
+                  "isChargeable": false,
+                  "amenityType": "PRE_RESERVED_SEAT",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "MEAL SERVICES",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "REFUNDABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "CHANGEABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "UPGRADE",
+                  "isChargeable": true,
+                  "amenityType": "UPGRADES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "FREE CHECKED BAGGAGE ALLOWANCE",
+                  "isChargeable": false,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "3",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "isUpsellOffer": false,
+      "lastTicketingDate": "2025-08-01",
+      "lastTicketingDateTime": "2025-08-01",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT2H25M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "DEL",
+                "terminal": "3",
+                "at": "2025-08-01T23:00:00"
+              },
+              "arrival": {
+                "iataCode": "BOM",
+                "terminal": "2",
+                "at": "2025-08-02T01:25:00"
+              },
+              "carrierCode": "AI",
+              "number": "2439",
+              "aircraft": {
+                "code": "32N"
+              },
+              "operating": {
+                "carrierCode": "AI"
+              },
+              "duration": "PT2H25M",
+              "id": "4",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "INR",
+        "total": "6711.00",
+        "base": "5767.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "6711.00"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "AI"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "INR",
+            "total": "6711.00",
+            "base": "5767.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "4",
+              "cabin": "ECONOMY",
+              "fareBasis": "LL1YXSII",
+              "brandedFare": "ECOVALU",
+              "brandedFareLabel": "ECO VALUE",
+              "class": "L",
+              "includedCheckedBags": {
+                "weight": 15,
+                "weightUnit": "KG"
+              },
+              "includedCabinBags": {
+                "weight": 7,
+                "weightUnit": "KG"
+              },
+              "amenities": [
+                {
+                  "description": "PRE RESERVED SEAT ASSIGNMENT",
+                  "isChargeable": false,
+                  "amenityType": "PRE_RESERVED_SEAT",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "MEAL SERVICES",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "REFUNDABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "CHANGEABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "UPGRADE",
+                  "isChargeable": true,
+                  "amenityType": "UPGRADES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "FREE CHECKED BAGGAGE ALLOWANCE",
+                  "isChargeable": false,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "4",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "isUpsellOffer": false,
+      "lastTicketingDate": "2025-08-01",
+      "lastTicketingDateTime": "2025-08-01",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT2H25M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "DEL",
+                "terminal": "3",
+                "at": "2025-08-01T20:00:00"
+              },
+              "arrival": {
+                "iataCode": "BOM",
+                "terminal": "2",
+                "at": "2025-08-01T22:25:00"
+              },
+              "carrierCode": "AI",
+              "number": "805",
+              "aircraft": {
+                "code": "77W"
+              },
+              "operating": {
+                "carrierCode": "AI"
+              },
+              "duration": "PT2H25M",
+              "id": "2",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "INR",
+        "total": "6879.00",
+        "base": "5927.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "6879.00"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "AI"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "INR",
+            "total": "6879.00",
+            "base": "5927.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "2",
+              "cabin": "ECONOMY",
+              "fareBasis": "LL1YXSII",
+              "brandedFare": "ECOVALU",
+              "brandedFareLabel": "ECO VALUE",
+              "class": "L",
+              "includedCheckedBags": {
+                "weight": 15,
+                "weightUnit": "KG"
+              },
+              "includedCabinBags": {
+                "weight": 7,
+                "weightUnit": "KG"
+              },
+              "amenities": [
+                {
+                  "description": "PRE RESERVED SEAT ASSIGNMENT",
+                  "isChargeable": false,
+                  "amenityType": "PRE_RESERVED_SEAT",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "MEAL SERVICES",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "REFUNDABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "CHANGEABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "UPGRADE",
+                  "isChargeable": true,
+                  "amenityType": "UPGRADES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "FREE CHECKED BAGGAGE ALLOWANCE",
+                  "isChargeable": false,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "5",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "isUpsellOffer": false,
+      "lastTicketingDate": "2025-08-01",
+      "lastTicketingDateTime": "2025-08-01",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT2H25M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "DEL",
+                "terminal": "3",
+                "at": "2025-08-01T22:30:00"
+              },
+              "arrival": {
+                "iataCode": "BOM",
+                "terminal": "2",
+                "at": "2025-08-02T00:55:00"
+              },
+              "carrierCode": "AI",
+              "number": "2437",
+              "aircraft": {
+                "code": "321"
+              },
+              "operating": {
+                "carrierCode": "AI"
+              },
+              "duration": "PT2H25M",
+              "id": "3",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "INR",
+        "total": "6879.00",
+        "base": "5927.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "6879.00"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "AI"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "INR",
+            "total": "6879.00",
+            "base": "5927.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "3",
+              "cabin": "ECONOMY",
+              "fareBasis": "LL1YXSII",
+              "brandedFare": "ECOVALU",
+              "brandedFareLabel": "ECO VALUE",
+              "class": "L",
+              "includedCheckedBags": {
+                "weight": 15,
+                "weightUnit": "KG"
+              },
+              "includedCabinBags": {
+                "weight": 7,
+                "weightUnit": "KG"
+              },
+              "amenities": [
+                {
+                  "description": "PRE RESERVED SEAT ASSIGNMENT",
+                  "isChargeable": false,
+                  "amenityType": "PRE_RESERVED_SEAT",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "MEAL SERVICES",
+                  "isChargeable": false,
+                  "amenityType": "MEAL",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "REFUNDABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "CHANGEABLE TICKET",
+                  "isChargeable": true,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "UPGRADE",
+                  "isChargeable": true,
+                  "amenityType": "UPGRADES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                },
+                {
+                  "description": "FREE CHECKED BAGGAGE ALLOWANCE",
+                  "isChargeable": false,
+                  "amenityType": "BRANDED_FARES",
+                  "amenityProvider": {
+                    "name": "BrandedFare"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dictionaries": {
+    "locations": {
+      "BOM": {
+        "cityCode": "BOM",
+        "countryCode": "IN"
+      },
+      "DEL": {
+        "cityCode": "DEL",
+        "countryCode": "IN"
+      }
+    },
+    "aircraft": {
+      "321": "AIRBUS A321",
+      "77W": "BOEING 777-300ER",
+      "32N": "AIRBUS A320NEO"
+    },
+    "currencies": {
+      "INR": "INDIAN RUPEE"
+    },
+    "carriers": {
+      "AI": "AIR INDIA"
+    }
+  }
+}

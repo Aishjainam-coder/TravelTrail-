@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Taj Mahal Palace",
+    "address": {
+      "cityName": "Mumbai",
+      "countryCode": "IN"
+    },
+    "starRating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Restaurant", "Gym"],
+    "offers": [
+      {
+        "price": {
+          "total": "15000",
+          "currency": "INR"
+        },
+        "room": {
+          "type": "Deluxe Room"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Oberoi Mumbai",
+    "address": {
+      "cityName": "Mumbai", 
+      "countryCode": "IN"
+    },
+    "starRating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Restaurant", "Bar"],
+    "offers": [
+      {
+        "price": {
+          "total": "12000",
+          "currency": "INR"
+        },
+        "room": {
+          "type": "Superior Room"
+        }
+      }
+    ]
+  },
+  {
+    "name": "ITC Maratha",
+    "address": {
+      "cityName": "Mumbai",
+      "countryCode": "IN"
+    },
+    "starRating": 4,
+    "amenities": ["WiFi", "Pool", "Restaurant", "Gym"],
+    "offers": [
+      {
+        "price": {
+          "total": "8500",
+          "currency": "INR"
+        },
+        "room": {
+          "type": "Executive Room"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Leela Palace",
+    "address": {
+      "cityName": "Mumbai",
+      "countryCode": "IN"
+    },
+    "starRating": 5,
+    "amenities": ["WiFi", "Pool", "Spa", "Restaurant", "Gym", "Bar"],
+    "offers": [
+      {
+        "price": {
+          "total": "18000",
+          "currency": "INR"
+        },
+        "room": {
+          "type": "Luxury Suite"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Trident Bandra Kurla",
+    "address": {
+      "cityName": "Mumbai",
+      "countryCode": "IN"
+    },
+    "starRating": 4,
+    "amenities": ["WiFi", "Pool", "Restaurant", "Gym"],
+    "offers": [
+      {
+        "price": {
+          "total": "7500",
+          "currency": "INR"
+        },
+        "room": {
+          "type": "Deluxe Room"
+        }
+      }
+    ]
+  }
+]
